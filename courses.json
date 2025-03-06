@@ -1,0 +1,70 @@
+{
+    "courses": [
+        {
+            "year": "1st Year",
+            "semester": "1st Semester",
+            "subjects": [
+                "Civic Welfare Training Service",
+                "Computer Programming 1",
+                "Introduction to Computing",
+                "Mathematics in the Modern World",
+                "Movement Enhancement",
+                "Purposive Communication",
+                "Readings in Philippine History",
+                "The Contemporary World"
+            ]
+        },
+        {
+            "year": "1st Year",
+            "semester": "2nd Semester",
+            "subjects": [
+                "Art Appreciation",
+                "Civic Welfare Training Service 2",
+                "Computer Programming 2",
+                "Data Structures and Algorithms",
+                "Discrete Mathematics",
+                "Fitness Activity and Exercises",
+                "Science, Technology and Society",
+                "Understanding the Self"
+            ]
+        },
+        {
+            "year": "2nd Year",
+            "semester": "1st Semester",
+            "subjects": [
+                "Accounting Principles",
+                "Environmental Science",
+                "Fundamentals of Database Systems",
+                "Intro to Human Computer Interaction",
+                "Object Oriented Programming",
+                "Physical Activity Towards Health and Fitness 1",
+                "Platform Technologies"
+            ]
+        },
+        {
+            "year": "2nd Year",
+            "semester": "2nd Semester",
+            "subjects": [
+                "Ethics",
+                "Information Management",
+                "Life and Works of Rizal",
+                "Networking 1",
+                "Physical Activity Towards Health and Fitness 2",
+                "Systems Integration and Architecture",
+                "Web Systems and Technologies"
+            ]
+        },
+        {
+            "year": "3rd Year",
+            "semester": "1st Semester",
+            "subjects": [
+                "Information Assurance and Security",
+                "IT Elective 1",
+                "Mobile Programming",
+                "Networking 2",
+                "Software Engineering",
+                "Technopreneurship"
+            ]
+        }
+    ]
+}
