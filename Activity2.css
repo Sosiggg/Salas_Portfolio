@@ -1,3 +1,4 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,49 +7,46 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffe6f2;
-    color: #5a2a55;
+    background-color: #F1C6D2;
+    color: #C72C41;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
-    padding: 0;
-    background-color: #ffb3d9;
     padding: 15px;
+    background-color: #FF4E50;
     border-radius: 10px;
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-li {
+.navbar li {
     display: inline;
-    margin: 0 15px;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     font-weight: bold;
-    color: #5a2a55;
+    color: white;
     transition: color 0.3s ease;
 }
 
-a:hover {
-    color: #d40078;
+.navbar a:hover {
+    color: #FFB3BA;
 }
 
-img {
+.profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #ff66a3;
+    border: 5px solid #FF6F91;
     margin-top: 20px;
 }
 
 .page-content {
-    background: #fff;
+    background: white;
     padding: 20px;
     margin: 20px auto;
     border-radius: 15px;
@@ -58,27 +56,27 @@ img {
 
 h1 {
     font-size: 2em;
-    color: #d40078;
+    color: #C72C41;
 }
 
 div[id] {
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
-    background-color: #ffccdd;
+    background-color: #FFB3BA;
 }
 
 footer {
-    background-color: #ff99c2;
+    background-color: #FF4E50;
     padding: 15px;
-    color: #5a2a55;
+    color: white;
     font-weight: bold;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-button {
-    background-color: #a22041;
+.buttons button {
+    background-color: #C72C41;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -89,38 +87,6 @@ button {
     transition: background 0.3s ease;
 }
 
-button:hover {
-    background-color: #d40078;
-}
-
-#activities {
-    padding: 40px;
-}
-
-#activities h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.activity-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.activity-card {
-    padding: 15px 25px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: 0.3s;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.activity-card:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+.buttons button:hover {
+    background-color: #FF6F91;
 }
