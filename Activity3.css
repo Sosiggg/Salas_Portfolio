@@ -5,17 +5,19 @@
 }
 
 body {
-    background-color: #F1C6D2;
-    color: #C72C41;
+    background-color: #F0F0F0;
+    color: #333333;
     text-align: center;
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #C72C41;
+    background-color: #E7473C;
     color: white;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 header ul {
@@ -34,11 +36,17 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #FF6F91;
+    color: #FFD6D3;
 }
 
-section img {
-    margin-top: 20px;
+.image-section {
+    margin: 30px auto;
+}
+
+.image-section img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,35 +55,41 @@ section img {
     margin: 30px auto;
     width: 80%;
     padding: 20px;
-    background: #FFB3BA;
+    background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #C72C41;
+h1 {
+    color: #E7473C;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-h3 {
-    color: #FF4E50;
+div {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #DDDDDD;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 li {
     list-style: none;
-    font-size: 16px;
-    color: #C72C41;
 }
 
 footer {
     margin-top: 20px;
     padding: 15px;
-    background: #C72C41;
+    background: #E7473C;
     color: white;
     font-size: 14px;
+    border-top: 3px solid #E7473C;
 }
 
 button {
-    background-color: #C72C41;
+    background-color: #E7473C;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -87,5 +101,62 @@ button {
 }
 
 button:hover {
-    background-color: #FF4E50;
+    background-color: #C7352D;
+}
+
+#activities h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #E7473C;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    padding: 15px 25px;
+    background-color: #E7473C;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.activity-card:hover {
+    background-color: #C7352D;
+    transform: scale(1.05);
+}
+
+#courses {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#courses h2 {
+    color: #C7352D;
+    text-align: center;
+}
+
+#courses h3 {
+    color: #C7352D;
+    margin-top: 15px;
+}
+
+#course-list {
+    padding-left: 20px;
+}
+
+#course-list li {
+    list-style: disc;
+    font-size: 16px;
+    color: #333333;
+    margin: 5px 0;
 }
