@@ -92,3 +92,35 @@ button {
 button:hover {
     background-color: #d40078;
 }
+
+#activities {
+    padding: 40px;
+}
+
+#activities h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.activity-card:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
