@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F0F0;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E7473C;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #FFD6D3;
+}
+
+.image-section {
+    margin: 30px auto;
+}
+
+.image-section img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-content {
+    margin: 30px auto;
+    width: 80%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #E7473C;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #DDDDDD;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #E7473C;
+    color: white;
+    font-size: 14px;
+    border-top: 3px solid #E7473C;
+}
+
+button {
+    background-color: #E7473C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #C7352D;
+}
+
+#activities h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #E7473C;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    padding: 15px 25px;
+    background-color: #E7473C;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.activity-card:hover {
+    background-color: #C7352D;
+    transform: scale(1.05);
+}
+
+#courses {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#courses h2 {
+    color: #C7352D;
+    text-align: center;
+}
+
+#courses h3 {
+    color: #C7352D;
+    margin-top: 15px;
+}
+
+#course-list {
+    padding-left: 20px;
+}
+
+#course-list li {
+    list-style: disc;
+    font-size: 16px;
+    color: #333333;
+    margin: 5px 0;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #E7473C;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+#searchBar:focus {
+    border-color: #C7352D;
+    box-shadow: 0 0 5px rgba(231, 71, 60, 0.5);
+}

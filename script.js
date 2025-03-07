@@ -28,3 +28,39 @@ function displayCourses(courses) {
         `;
     });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const courses = [
+        "Introduction to HTML & CSS",
+        "JavaScript Basics",
+        "Advanced JavaScript",
+        "React for Beginners",
+        "Database Management with MySQL",
+        "Responsive Web Design",
+        "UI/UX Fundamentals",
+        "Python Programming",
+        "Cybersecurity Essentials"
+    ];
+
+    const courseList = document.getElementById("course-list");
+    courseList.innerHTML = ""; // Clear default "Loading courses..."
+
+    courses.forEach(course => {
+        const li = document.createElement("li");
+        li.textContent = course;
+        courseList.appendChild(li);
+    });
+});
+
+function searchCourses() {
+    const searchInput = document.getElementById("searchBar").value.toLowerCase();
+    const courseItems = document.querySelectorAll("#course-list li");
+
+    courseItems.forEach(course => {
+        if (course.textContent.toLowerCase().includes(searchInput)) {
+            course.style.display = "list-item";
+        } else {
+            course.style.display = "none";
+        }
+    });
+}
