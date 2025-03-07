@@ -5,15 +5,14 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #F1C6D2;
+    color: #C72C41;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #a22041;
+    background-color: #C72C41;
     color: white;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,21 +34,11 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #ffbbd0;
+    color: #FF6F91;
 }
 
 section img {
-    margin-top: 20px; /* Adjust as needed */
-}
-
-.image-section {
-    margin: 30px auto;
-}
-
-.image-section img {
-    width: 150px;
-    display: block;
-    margin: 0 auto;
+    margin-top: 20px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -58,41 +47,35 @@ section img {
     margin: 30px auto;
     width: 80%;
     padding: 20px;
-    background: white;
+    background: #FFB3BA;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2 {
+    color: #C72C41;
+}
+
+h3 {
+    color: #FF4E50;
+}
+
 li {
     list-style: none;
-}
-
-h1 {
-    color: #222;
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-div {
-    margin: 15px 0;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #C72C41;
 }
 
 footer {
     margin-top: 20px;
     padding: 15px;
-    background: #a22041;
+    background: #C72C41;
     color: white;
     font-size: 14px;
-    border-top: 3px solid #a22041;
 }
 
 button {
-    background-color: #a22041;
+    background-color: #C72C41;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -104,37 +87,5 @@ button {
 }
 
 button:hover {
-    background-color: #d40078;
-}
-
-#activities {
-    padding: 40px;
-}
-
-#activities h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.activity-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.activity-card {
-    padding: 15px 25px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: 0.3s;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.activity-card:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+    background-color: #FF4E50;
 }

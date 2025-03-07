@@ -16,20 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function displayCourses(courses) {
-    const coursesContainer = document.getElementById("courses");
-    coursesContainer.innerHTML = "<h2>My Finished Courses</h2>";
+    const coursesContainer = document.getElementById("course-list");
+    coursesContainer.innerHTML = "";
 
     courses.forEach(course => {
-        const courseDiv = document.createElement("div");
-        courseDiv.classList.add("course");
-
-        courseDiv.innerHTML = `
+        coursesContainer.innerHTML += `
             <h3>${course.year} - ${course.semester}</h3>
             <ul>
                 ${course.subjects.map(subject => `<li>${subject}</li>`).join("")}
             </ul>
         `;
-
-        coursesContainer.appendChild(courseDiv);
     });
 }
