@@ -173,5 +173,4 @@ button:hover {
 
 #searchBar:focus {
     border-color: #C7352D;
-    box-shadow: 0 0 5px rgba(231, 71, 60, 0.5);
 }

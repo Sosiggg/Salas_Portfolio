@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     const courseList = document.getElementById("course-list");
-    courseList.innerHTML = ""; // Clear default "Loading courses..."
+    courseList.innerHTML = ""; 
 
     courses.forEach(course => {
         const li = document.createElement("li");
